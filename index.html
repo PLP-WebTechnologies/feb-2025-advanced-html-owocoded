@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PLP wk2 assignment</title>
+  </head>
+  <body>
+    <!-- Ordered List with Roman Numerals -->
+    <div>
+      <h1>Ordered List</h1>
+      <ol type="I">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+      </ol>
+    </div>
+
+    <!-- External Image -->
+    <h1>External Image</h1>
+    <img
+      src="https://images.pexels.com/photos/30912294/pexels-photo-30912294/free-photo-of-serene-white-swan-gliding-on-foggy-pond-in-sintra.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      alt="Image from Pexels"
+      width="100"
+    />
+
+    <!-- Table of Contact -->
+    <h1>Contact List</h1>
+    <table cellpadding="5">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Yusuf Babatunde</td>
+          <td>Sari Iganmu Lagos. Nigeria</td>
+          <td>+2348129236399</td>
+          <td>babatundey338@gmail.com</td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- Registration Form -->
+    <h1>Registration Form</h1>
+    <form action="#" method="POST">
+      <!-- Name Field -->
+      <label for="name">Name:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="First name"
+        required
+      /><br /><br />
+
+      <label for="name">Second name:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Second name"
+        required
+      /><br /><br />
+
+      <!-- Email Field -->
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email address"
+        required
+      /><br /><br />
+
+      <!-- Password Field -->
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter your password"
+        required
+        minlength="8"
+      /><br /><br />
+
+      <!-- Date of Birth Field -->
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required /><br /><br />
+
+      <!-- Dropdown (Country) -->
+      <label for="country">Country:</label>
+      <select id="country" name="country" required>
+        <option value="">Select your country</option>
+        <option value="nigeria">Nigeria</option>
+        <option value="ghana">Ghana</option>
+        <option value="kenya">Kenya</option>
+        <option value="south-africa">South Africa</option>
+      </select
+      ><br /><br />
+
+      <!-- Radio Buttons (Gender) -->
+      <label>Gender:</label><br />
+      <input type="radio" id="male" name="gender" value="male" required />
+      <label for="male">Male</label><br />
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label><br />
+      <input type="radio" id="other" name="gender" value="other" />
+      <label for="other">Other</label><br /><br />
+
+      <!-- Checkboxes (Interests) -->
+      <label>Interests:</label><br />
+      <input type="checkbox" id="coding" name="interests" value="coding" />
+      <label for="coding">Coding</label><br />
+      <input type="checkbox" id="design" name="interests" value="design" />
+      <label for="design">Design</label><br />
+      <input type="checkbox" id="music" name="interests" value="music" />
+      <label for="music">Music</label><br /><br />
+
+      <!-- Submit Button -->
+      <button type="submit">Register</button>
+    </form>
+  </body>
+</html>
